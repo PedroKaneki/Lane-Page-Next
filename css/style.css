@@ -1,0 +1,95 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body {
+    width: auto;
+    height: auto;
+}
+
+.icone {
+    width: 75px;
+    height: 37px;
+    position: relative;
+    object-fit: cover;
+    top: 30px;
+    left: 50px;
+}
+
+.container {
+    width: auto;
+    height: 112px;
+    position: relative;
+    
+    display: flex;
+    justify-content: space-around;
+}
+
+  nav,a{
+    position: relative;
+    text-decoration: none;
+    color: #000;
+    font-family:'PT Sans Narrow', sans-serif;
+    font-size: 10.5px;
+    font-weight: 500;
+    line-height: 15.75px;
+    letter-spacing: 2.1px;
+    padding: 5px;
+    top: 19px;
+    right: 20px;
+  }
+
+  .botao{
+    width: 164px;
+    height: 52px;
+    position: relative;
+    font-size: 12.25;
+    background-color: #fd6699;
+    color: aliceblue;
+    font-family:'PT Sans Narrow';
+    font-weight:500 ;
+    border: 0px;
+    top: 25px;
+    right: 90px;
+   
+  }
+  /* conteudos*/
+ #conteudo{
+    display: flex;
+    background-image: url(../assets/cover-new-home2.png);
+    background-repeat: no-repeat;
+    width: 1313px;
+    height: 702px;
+    background-size: cover;
+    position: relative;
+    bottom: 5px;
+ }
+ .conteudo-main {
+     width: 328px;
+     height: 395px;
+     position: relative;
+     display: flex;
+     left: 876px;
+     top: 181px;
+     padding-top: 50px;
+     padding-bottom: 42px;
+  
+     
+ }
+
+ h2{
+    font-family:'Prompt', sans-serif;
+    font-size: 35px;
+    line-height: 42px;
+    color: #ffff;
+    text-align: start;
+    font-weight: bold;
+ }
+ .sla{
+    background-color:#00ff5f;
+    color: #000;
+    font-family: sans-serif;
+ }
+ 
