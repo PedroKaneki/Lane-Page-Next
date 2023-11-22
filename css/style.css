@@ -53,6 +53,7 @@ body {
     border: 0px;
     top: 25px;
     right: 90px;
+    pointer-events: stroke;
    
   }
   /* conteudos*/
